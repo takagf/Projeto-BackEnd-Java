@@ -1,0 +1,34 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-ConfigServerApplication<config-server>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.example.configserver.ConfigServerApplication",
+            "projectName": "config-server",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-EurekaServerApplication<eureka-server>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.example.eurekaserver.EurekaServerApplication",
+            "projectName": "eureka-server",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-ZuulServerApplication<zuul-server>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.example.zuulserver.ZuulServerApplication",
+            "projectName": "zuul-server",
+            "args": ""
+        }
+    ]
+}
